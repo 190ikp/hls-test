@@ -36,3 +36,8 @@ nginx + なにかをつかって映像配信
   - pros
   - cons
     - コーデック依存
+
+## その他
+
+- 当面はCloudflareでhttps化する  
+  そのうちcertbotでやる(つもり)
