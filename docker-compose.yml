@@ -1,7 +1,7 @@
 version: '3.1'
 services: 
   proxy: 
-    image: nginx:mainline-alpine:latest
+    image: nginx:mainline-alpine
     restart: always
     ports: 
       - '80:80'
