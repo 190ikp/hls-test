@@ -1,0 +1,10 @@
+version: '3.1'
+services: 
+  proxy: 
+    image: nginx-mainline-alpine:latest
+    restart: always
+    ports: 
+      - '80:80'
+      - '443:443'
+    envionment: 
+      TZ: Asia/Tokyo
